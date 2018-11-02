@@ -1,11 +1,11 @@
 <?php
 // SynapsePay API Resources
-require(dirname(__FILE__) . '/src/SynapsePayRest/api/Node.php');
-require(dirname(__FILE__) . '/src/SynapsePayRest/api/User.php');
-require(dirname(__FILE__) . '/src/SynapsePayRest/api/Trans.php');
-require(dirname(__FILE__) . '/src/SynapsePayRest/api/Subnet.php');
-require(dirname(__FILE__) . '/src/SynapsePayRest/api/Subscription.php');
-require(dirname(__FILE__) . '/src/SynapsePayRest/api/PublicKey.php');
+require(dirname(__FILE__) . '/src/SynapsePayRest/Api/Node.php');
+require(dirname(__FILE__) . '/src/SynapsePayRest/Api/User.php');
+require(dirname(__FILE__) . '/src/SynapsePayRest/Api/Trans.php');
+require(dirname(__FILE__) . '/src/SynapsePayRest/Api/Subnet.php');
+require(dirname(__FILE__) . '/src/SynapsePayRest/Api/Subscription.php');
+require(dirname(__FILE__) . '/src/SynapsePayRest/Api/PublicKey.php');
 // SynapsePay API Resources
 require(dirname(__FILE__) . '/src/SynapsePayRest/HelperFunctions.php');
 require(dirname(__FILE__) . '/src/SynapsePayRest/HttpClient.php');
