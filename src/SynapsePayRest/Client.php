@@ -3,8 +3,13 @@
 namespace SynapsePayRest;
 
 
+use SynapsePayRest\Api\Node;
+use SynapsePayRest\Api\PublicKey;
+use SynapsePayRest\Api\Subnet;
+use SynapsePayRest\Api\Subscription;
+use SynapsePayRest\Api\Trans;
+use SynapsePayRest\Api\User;
 use SynapsePayRest\HttpClient;
-use SynapsePayRest\HelperFunctions;
 
 
 /**

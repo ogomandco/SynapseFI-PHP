@@ -1,7 +1,9 @@
 <?php
 
-namespace SynapsePayRest;
+namespace SynapsePayRest\Api;
+
 use Exception;
+use SynapsePayRest\HelperFunctions;
 
 class User{
 

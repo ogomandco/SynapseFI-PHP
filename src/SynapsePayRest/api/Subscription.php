@@ -1,6 +1,8 @@
 <?php
 
-namespace SynapsePayRest;
+namespace SynapsePayRest\Api;
+
+use SynapsePayRest\HelperFunctions;
 
 class Subscription{
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace SynapsePayRest;
+namespace SynapsePayRest\Api;
 
 class PublicKey{
 

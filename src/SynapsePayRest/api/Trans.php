@@ -1,8 +1,8 @@
 <?php
 
-namespace SynapsePayRest;
+namespace SynapsePayRest\Api;
 
-// use SynapsePayRest\HelperFunctions;
+use SynapsePayRest\HelperFunctions;
 
 class Trans{
 
