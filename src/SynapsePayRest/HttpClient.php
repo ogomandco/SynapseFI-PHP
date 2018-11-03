@@ -64,7 +64,7 @@ class HttpClient{
 
   function handle_response($response,$ch){
     $response = json_decode($response, true);
-    print_r($response);
+
     if($response == false || curl_error($ch)) {
       $err = curl_getinfo($ch);
       curl_close($ch);
@@ -79,7 +79,6 @@ class HttpClient{
   }
 
   function handle_errors($err){
-    print_r($err);
 
     if($err['http_code'] == 0){
       $err['http_code'] = 408;
@@ -132,7 +131,7 @@ class HttpClient{
 
   function get($path){
     $url = $this->baseUrl . $path;
-    print $url;
+
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_POST, false);
     $options = $this->create_headers($url);
